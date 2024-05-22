@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Doc Approval Portal App Config">bce2044eea5e021085487f478db0e520</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>doc_all</name>
+        <optional_parameters>status</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>doc_all</route_type>
+        <screen_type display_value="doc_all">e0e2c04e305e02107deab335d8e4c942</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:37</sys_created_on>
+        <sys_id>2ce2c04e6b5e0210be2c3d86499f7b42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>doc_all</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_ux_app_route_2ce2c04e6b5e0210be2c3d86499f7b42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:37</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ce2c04e6b5e0210be2c3d86499f7b42"/>
+</record_update>

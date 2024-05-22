@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>EDIT</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:44</sys_created_on>
+        <sys_id>54e2c04e715e0210e9421053593ee21f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EDIT</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_ux_form_action_54e2c04e715e0210e9421053593ee21f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:44</sys_updated_on>
+        <table>x_1374196_first_0_document_approval</table>
+        <ui_action display_value="">65fbe14d73052010116b42d785f6a7af</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=54e2c04e715e0210e9421053593ee21f"/>
+</record_update>

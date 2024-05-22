@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Reject document">ace2c04ef35e0210e9d37e51e5de6173</button>
+        <color_theme>destructive</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Reject</label>
+        <location>footer</location>
+        <name>Reject</name>
+        <order>10</order>
+        <parent>ece2c04e2c5e02103bf95e17befdc86f</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:39</sys_created_on>
+        <sys_id>64e2c04ef55e021093182c8d00ca0e70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_sg_button_instance_64e2c04ef55e021093182c8d00ca0e70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:39</sys_updated_on>
+        <table>x_1374196_first_0_document_approver</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=64e2c04ef55e021093182c8d00ca0e70"/>
+</record_update>

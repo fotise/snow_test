@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Doc Approval Workspace App Config">bce2044e2c5e0210aed97cf16b99961e</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon>paperclip-fill</icon>
+        <name>Attachments</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">a4e2c04eb05e021088a21ecd696e804e</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>attachments</route_type>
+        <screen_type display_value="Attachments">24e2c04eb05e0210331866e1dc2cbb3e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:43</sys_created_on>
+        <sys_id>a8e2c04ea15e02109d4dc08532be6d3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachments</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_ux_app_route_a8e2c04ea15e02109d4dc08532be6d3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:43</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8e2c04ea15e02109d4dc08532be6d3e"/>
+</record_update>

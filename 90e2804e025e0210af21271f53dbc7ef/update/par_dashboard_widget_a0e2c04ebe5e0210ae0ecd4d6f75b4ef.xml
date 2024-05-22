@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">e0e2c04e2f5e021089b34695b75e7bf1</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-secondary","label":"Approval Status","wontWrap":false,"hasNoMargin":false,"level":"2","noDebounce":""}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0e2c04ebe5e0210ae0ecd4d6f75b4ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>par_dashboard_widget_a0e2c04ebe5e0210ae0ecd4d6f75b4ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:39</sys_updated_on>
+        <visualization/>
+        <w>29</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

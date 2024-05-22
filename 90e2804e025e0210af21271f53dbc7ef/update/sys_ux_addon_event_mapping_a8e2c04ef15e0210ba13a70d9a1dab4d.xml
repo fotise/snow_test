@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>OPEN_NEW_MODEL_MODAL</name>
+        <parent_macroponent display_value="List drilldown default">64e2c04e835e02104e81620bf719714c</parent_macroponent>
+        <source_component/>
+        <source_da display_value="new-model">50181b4a73253010c01ce234c4f6a7b5</source_da>
+        <source_element_id>list_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8e2c04ef15e0210ba13a70d9a1dab4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OPEN_NEW_MODEL_MODAL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_a8e2c04ef15e0210ba13a70d9a1dab4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:31</sys_updated_on>
+        <target_event display_value="SIMPLE_LIST#OPEN_MODAL">31a6f26db3163010bf6680bd26a8dcf1</target_event>
+        <target_payload_mapping>{&#13;
+    "type": "MAP_CONTAINER",&#13;
+    "container": {&#13;
+      "route": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "route"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "fields": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "fields"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "params": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "params"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+  }</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

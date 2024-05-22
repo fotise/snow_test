@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:44</sys_created_on>
+        <sys_id>2ce2c04e0c5e021008b6c12bdce87266</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_2ce2c04e0c5e021008b6c12bdce87266</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:44</sys_updated_on>
+        <target>viewgroup_01</target>
+        <ui_rule display_value="Approved state rules for document approvals - List View Config">ece2c04edf5e02100c22bdf52e2c3266</ui_rule>
+        <value>{"BackgroundColor":"#C9E0CA"}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

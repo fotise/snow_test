@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="approver_id" label="Approver Id" language="en" table="var__m_sys_hub_action_input_e4e2c04e655e0210134d11961b7e3bd3">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>approver_id</element>
+            <help/>
+            <hint/>
+            <label>Approver Id</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e4e2c04e655e0210134d11961b7e3bd3</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-22 06:09:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Approver Id</sys_name>
+            <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+            <sys_update_name>sys_documentation_!!!table_name_185!!!_approver_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-22 06:09:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1374196_first_0.DocApprovalUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DocApprovalUtils</name>
+        <script><![CDATA[var DocApprovalUtils = Class.create();
+DocApprovalUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	checkHex: function(code) {
+		var RegExp = /^#[0-9A-F]{6}$/i;
+		return RegExp.test(code);
+	},
+
+    type: 'DocApprovalUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:38</sys_created_on>
+        <sys_id>30e2044ee25e0210772b6587b9823422</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DocApprovalUtils</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_script_include_30e2044ee25e0210772b6587b9823422</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

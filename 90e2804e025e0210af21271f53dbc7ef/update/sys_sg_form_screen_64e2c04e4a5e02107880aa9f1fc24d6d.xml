@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <alert/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">ace2c04eab5e0210e3c914849afb2b6d</icon>
+        <item_view/>
+        <name>Document Approval</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:39</sys_created_on>
+        <sys_id>64e2c04e4a5e02107880aa9f1fc24d6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Approval</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_sg_form_screen_64e2c04e4a5e02107880aa9f1fc24d6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:39</sys_updated_on>
+        <table>x_1374196_first_0_document_approver</table>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Document Approvals View Config">60e2c04e585e021044df8089e91f6e6e</view_config>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=64e2c04e4a5e02107880aa9f1fc24d6d"/>
+</record_update>

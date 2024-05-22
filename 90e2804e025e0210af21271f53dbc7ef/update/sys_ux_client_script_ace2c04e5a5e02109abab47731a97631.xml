@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record default">64e2c04eba5e02100f6cf185b3bded3d</macroponent>
+        <name>initializeSidebarRatio</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event 
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const DEFAULT_RATIO = 75;
+    const ratio = (api.data.getSidebarRatioPreference.result.preferences.length > 0) ?
+        api.data.getSidebarRatioPreference.result.preferences[0].value : DEFAULT_RATIO;
+
+    api.setState('sidebarDividerPosition', ratio);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:32</sys_created_on>
+        <sys_id>ace2c04e5a5e02109abab47731a97631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>initializeSidebarRatio</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_ux_client_script_ace2c04e5a5e02109abab47731a97631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:32</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

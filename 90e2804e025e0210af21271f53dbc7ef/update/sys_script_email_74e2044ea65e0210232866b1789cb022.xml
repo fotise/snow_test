@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_1374196_first_0.document_approval_copy</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    var color = 'color: #454D5B ;';
+    var font_size = 'font-size:12px';
+    var copy_right = gs.getProperty("x_1374196_first_0.u_copy_right");
+    if (!copy_right) {
+        copy_right = "&copy;2023 First Demo All rights reserved.";
+    }
+    template.print('<p style="text-align: center; ' + color + '; ' + font_size + ';">' + copy_right + '</p>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:29</sys_created_on>
+        <sys_id>74e2044ea65e0210232866b1789cb022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1374196_first_0.document_approval_copy</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_script_email_74e2044ea65e0210232866b1789cb022</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:29</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_facet">
+    <sys_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_facet_name>sn_doc_approval_document_approval.status</ais_facet_name>
+        <label>Status</label>
+        <name>Status</name>
+        <option_limit>10</option_limit>
+        <order>20</order>
+        <search_context_config display_value="Document Approval Portal Search Configuration">20e2c04e685e021053a81015d86db182</search_context_config>
+        <sys_class_name>sys_search_facet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:37</sys_created_on>
+        <sys_id>a8e2c04e265e0210e94ec721e9bcc081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_doc_approval_document_approval.status</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_search_facet_a8e2c04e265e0210e94ec721e9bcc081</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:37</sys_updated_on>
+        <type/>
+    </sys_search_facet>
+</record_update>

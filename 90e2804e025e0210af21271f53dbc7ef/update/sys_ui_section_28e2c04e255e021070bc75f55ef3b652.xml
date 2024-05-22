@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="28e2c04e255e021070bc75f55ef3b652" sys_domain="global" table="x_1374196_first_0_document_approval" version="3" view="portal">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-22 06:09:39</sys_created_on>
+            <sys_id>a8e2c04e155e02109cac574a9edd8453</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1374196_first_0_document_approval" sys_domain="global" view="043ce1528d30021087de63ac7f1f0044">28e2c04e255e021070bc75f55ef3b652</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-22 06:09:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_category</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-22 06:09:39</sys_created_on>
+            <sys_id>24e2c04e9a5e02102ae776a7e580ae53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1374196_first_0_document_approval" sys_domain="global" view="043ce1528d30021087de63ac7f1f0044">28e2c04e255e021070bc75f55ef3b652</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-22 06:09:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-22 06:09:39</sys_created_on>
+            <sys_id>ace2c04e165e0210684a44bf51f4bf52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1374196_first_0_document_approval" sys_domain="global" view="043ce1528d30021087de63ac7f1f0044">28e2c04e255e021070bc75f55ef3b652</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-22 06:09:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1374196_first_0_document_approval</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-22 06:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28e2c04e255e021070bc75f55ef3b652</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1374196_first_0_document_approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+            <sys_update_name>sys_ui_section_28e2c04e255e021070bc75f55ef3b652</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-22 06:09:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Portal" name="portal">043ce1528d30021087de63ac7f1f0044</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

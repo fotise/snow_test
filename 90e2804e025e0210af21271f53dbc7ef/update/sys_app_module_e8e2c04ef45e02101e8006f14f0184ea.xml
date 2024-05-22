@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="First Demo">64e2c04eea5e0210ffda104177bebcea</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Document Approval Portal</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>15</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/x/1374196/x_1374196_first_0-doc-approval/portal</query>
+        <report/>
+        <require_confirmation>false</require_confirmation>
+        <roles>x_1374196_first_0.submitter</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8e2c04ef45e02101e8006f14f0184ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Approval Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_app_module_e8e2c04ef45e02101e8006f14f0184ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:41</sys_updated_on>
+        <timeline_page/>
+        <title>Document Approval Portal</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>_blank</window_name>
+    </sys_app_module>
+</record_update>

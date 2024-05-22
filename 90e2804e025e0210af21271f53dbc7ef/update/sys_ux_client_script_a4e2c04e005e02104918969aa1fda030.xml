@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record default">64e2c04eba5e02100f6cf185b3bded3d</macroponent>
+        <name>showOnloadAlerts</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api,event,imports}) {
+  var paramsString = api.context.props.extraParams,
+    paramsObj = paramsString?.split('/'),
+    alerts;
+
+  if (!paramsObj || !paramsObj.length || (paramsObj.indexOf('alerts') < 0)) return;
+
+  alerts = paramsObj[paramsObj.indexOf('alerts') + 1];
+  try {
+    alerts = JSON.parse(alerts);
+  } catch(e) {}
+
+  if (!alerts)
+    return;
+  if (typeof alerts == 'string') {
+    alerts = [{
+      id: "record-alert-1",
+      status: "info",
+      icon: "info-circle-outline",
+      content: alerts,
+      action: {
+        type: "dismiss"
+      }
+    }];
+  }
+  api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+    items: alerts
+  });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:45</sys_created_on>
+        <sys_id>a4e2c04e005e02104918969aa1fda030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>showOnloadAlerts</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_ux_client_script_a4e2c04e005e02104918969aa1fda030</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:45</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

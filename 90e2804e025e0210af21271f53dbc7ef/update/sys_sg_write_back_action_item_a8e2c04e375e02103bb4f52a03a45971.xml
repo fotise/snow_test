@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+    var recordId = input.sys_id;
+
+    var grDocApproval = new GlideRecord('x_1374196_first_0_document_approver');
+    if (grDocApproval.get(recordId)) {
+        grDocApproval.comments = input.comments;
+        grDocApproval.state = "rejected";
+        grDocApproval.update();
+
+        gs.addInfoMessage(gs.getMessage("{0} rejected.", grDocApproval.document.name));
+    }
+})(input);]]></execution_script>
+        <name>wb_decline_document</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:43</sys_created_on>
+        <sys_id>a8e2c04e375e02103bb4f52a03a45971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wb_decline_document</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_a8e2c04e375e02103bb4f52a03a45971</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:43</sys_updated_on>
+        <table>x_1374196_first_0_document_approver</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8e2c04e375e02103bb4f52a03a45971"/>
+</record_update>

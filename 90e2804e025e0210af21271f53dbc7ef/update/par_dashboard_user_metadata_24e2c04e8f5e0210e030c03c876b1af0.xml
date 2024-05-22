@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="INSERT_OR_UPDATE">
+        <background_color/>
+        <cache_expiration_time/>
+        <card_bg_image/>
+        <created_by_user display_value="">admin</created_by_user>
+        <created_on>2023-08-07 12:18:37</created_on>
+        <dashboard display_value="Document Approvals">a4e2c04efe5e0210eab9f9ea4a6ad4f1</dashboard>
+        <enable_data_cache>false</enable_data_cache>
+        <include_custom_insights>false</include_custom_insights>
+        <include_key_contributors>false</include_key_contributors>
+        <include_kpi_signals>false</include_kpi_signals>
+        <include_predictive_target>false</include_predictive_target>
+        <include_predictive_thresholds>false</include_predictive_thresholds>
+        <include_process_mining>false</include_process_mining>
+        <include_severity>false</include_severity>
+        <include_target>false</include_target>
+        <include_thresholds>false</include_thresholds>
+        <include_trends>false</include_trends>
+        <last_updated_on>2023-08-07 12:18:37</last_updated_on>
+        <po_project_id_list/>
+        <refresh_information>false</refresh_information>
+        <refresh_interval/>
+        <requested_by_user/>
+        <schedule_repetition>false</schedule_repetition>
+        <show_insights_panel>false</show_insights_panel>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>24e2c04e8f5e0210e030c03c876b1af0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_24e2c04e8f5e0210e030c03c876b1af0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:34</sys_updated_on>
+        <updated_by_user display_value="">admin</updated_by_user>
+        <use_custom_tab_colors>false</use_custom_tab_colors>
+    </par_dashboard_user_metadata>
+</record_update>

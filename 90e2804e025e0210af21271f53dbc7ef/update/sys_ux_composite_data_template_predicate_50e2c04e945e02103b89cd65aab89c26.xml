@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>number,name,submitter,description,approval_category,status,active,sys_created_on,sys_created_by,sys_updated_on,sys_updated_by,work_notes</field_list>
+        <name>document-view-config</name>
+        <order/>
+        <predicate_bundle display_value="document-approval-view-config-bundle">98e2c04e4c5e02103f53330be5991726</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-22 06:09:34</sys_created_on>
+        <sys_id>50e2c04e945e02103b89cd65aab89c26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>document-view-config</sys_name>
+        <sys_package display_value="First Demo" source="x_1374196_first_0">90e2804e025e0210af21271f53dbc7ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Demo">90e2804e025e0210af21271f53dbc7ef</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_50e2c04e945e02103b89cd65aab89c26</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-22 06:09:34</sys_updated_on>
+        <table>x_1374196_first_0_document_approval</table>
+        <ux_template display_value="doc-approval-view-all-template">d0e2c04e1e5e02104dadec35bdc25527</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>
